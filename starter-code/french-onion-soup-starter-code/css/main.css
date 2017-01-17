@@ -1,5 +1,4 @@
 /*Some necessary adjustments*/
-<<<<<<< HEAD
 *{margin: 0 auto;}
 
 body{counter-reset: section;}
@@ -68,13 +67,4 @@ html {
   position: absolute;
 	right: 0;
   top: 0;
-=======
-h1, body, html, main {
-  margin: 0;
-}
-/*Import the font and set the default size*/
-html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
->>>>>>> 08864bfafc3068df0f603779f9d3b863c535bee0
 }
