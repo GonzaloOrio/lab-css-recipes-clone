@@ -1,4 +1,74 @@
 /*Some necessary adjustments*/
+<<<<<<< HEAD
+*{margin: 0 auto;}
+
+body{counter-reset: section;}
+
+/*Import the font and set the default size*/
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+}
+
+#background-image{
+  background-image: url(../images/soup.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 1000px;
+  text-align: center;
+}
+
+#info-container{
+  width: 75%;
+}
+
+.description{
+  font-size: 3.7em;
+  padding: 4em 0 2em 0;
+}
+
+
+.directions,.ingredients{
+  padding: 2em 0 10em 3em;
+}
+
+.directions > .info-list::before{
+  counter-increment: section;
+  content: "" counter(section) ") ";
+}
+
+.info-img{
+  border-bottom: 0.3em solid grey;
+  padding-bottom: 4em;
+  text-align: center;
+  width: 100%;
+}
+
+.info-list{
+  font-size: 3.4em;
+  list-style-type: none;
+}
+
+.ingredients > .info-list::before{
+  content: "-";
+}
+
+.subtitle-section{
+  font-size: 3.7em;
+  padding: 2em 0 1em 0;
+}
+
+.title{
+  bottom: 0;
+  color: white;
+  font-size: 10em;
+	height: 10%;
+	left: 0;
+	margin: auto;
+  position: absolute;
+	right: 0;
+  top: 0;
+=======
 h1, body, html, main {
   margin: 0;
 }
@@ -6,4 +76,5 @@ h1, body, html, main {
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
+>>>>>>> 08864bfafc3068df0f603779f9d3b863c535bee0
 }
